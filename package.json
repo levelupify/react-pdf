@@ -19,13 +19,16 @@
     }
   ],
   "license": "MIT",
+  "dependencies": {
+    "pdfjs-dist": "*"
+  },
   "devDependencies": {
     "browserify": "^11.0.1",
     "reactify": "^1.1.1"
   },
   "peerDependencies": {
-    "react": "^0.13.3 || ^0.14",
-    "react-dom": "^0.13.3 || ^0.14"
+    "react": "^0.15.0",
+    "react-dom": "^0.15.0"
   },
   "browserify": {
     "transform": [
@@ -34,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nnarhinen/react-pdf.git"
+    "url": "https://github.com/levelupify/react-pdf.git"
   }
 }
